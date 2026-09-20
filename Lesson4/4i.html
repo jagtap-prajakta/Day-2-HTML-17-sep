@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stretch</title>
+    <!-- when you move the mouse over the button, the button smoothly becomes bigger -->
     <style>
         .stretch-button{
             background-color: green;
@@ -15,12 +16,13 @@
             padding-left: 15px;
             padding-right: 15px;
             cursor: pointer;
-            transition: padding-top 1s,
+            transition: padding-top 1s,  /*doesnt change the padding-top immediately. it takes 1second to change it*/
             padding-bottom 1s,
             padding-left 1s,
             padding-right 1s;
         }
 
+        /* :hover means when the mouse is placed over the element*/
         .stretch-button:hover{
             padding-top: 18px;
             padding-bottom: 18px;
