@@ -1,3 +1,11 @@
 -------------------------------------------------  Lesson 3: Hovers, Transitions, Shadows  -------------------------------------------------
                                                    --------------------------------------
 
+-------------------------------------------------  Lesson 4: Chrome DevTools & CSS Box Model  -----------------------------------------------
+                                                  --------------------------------------------
+
+- Chrome DevTools : Inspect on Chrome
+- CSS Box Model : - how much space an element takes up     - how far it is from other elements
+
+Property:
+vertical-align: top;   // aligns elemts at the top
